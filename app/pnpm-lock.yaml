@@ -2,32 +2,32 @@ lockfileVersion: 5.3
 
 specifiers:
   '@angular-devkit/build-angular': ~13.2.6
-  '@angular/animations': ~13.2.0
+  '@angular/animations': ~13.2.6
   '@angular/cdk': ^13.2.6
   '@angular/cli': ~13.2.6
-  '@angular/common': ~13.2.0
-  '@angular/compiler': ~13.2.0
-  '@angular/compiler-cli': ~13.2.0
-  '@angular/core': ~13.2.0
-  '@angular/forms': ~13.2.0
+  '@angular/common': ~13.2.6
+  '@angular/compiler': ~13.2.6
+  '@angular/compiler-cli': ~13.2.6
+  '@angular/core': ~13.2.6
+  '@angular/forms': ~13.2.6
   '@angular/material': ^13.2.6
-  '@angular/platform-browser': ~13.2.0
-  '@angular/platform-browser-dynamic': ~13.2.0
-  '@angular/router': ~13.2.0
-  '@types/jasmine': ~3.10.0
-  '@types/node': ^12.11.1
+  '@angular/platform-browser': ~13.2.6
+  '@angular/platform-browser-dynamic': ~13.2.6
+  '@angular/router': ~13.2.6
+  '@types/jasmine': ~3.10.3
+  '@types/node': ^17.0.21
   card: link:@angular/material/card
-  jasmine-core: ~4.0.0
-  karma: ~6.3.0
-  karma-chrome-launcher: ~3.1.0
-  karma-coverage: ~2.1.0
-  karma-jasmine: ~4.0.0
+  jasmine-core: ~4.0.1
+  karma: ~6.3.17
+  karma-chrome-launcher: ~3.1.1
+  karma-coverage: ~2.2.0
+  karma-jasmine: ~4.0.1
   karma-jasmine-html-reporter: ~1.7.0
-  rxjs: ~7.5.0
+  rxjs: ~7.5.5
   slider: link:@angular/material/slider
-  tslib: ^2.3.0
-  typescript: ~4.5.2
-  zone.js: ~0.11.4
+  tslib: ^2.3.1
+  typescript: ~4.5.5
+  zone.js: ~0.11.5
 
 dependencies:
   '@angular/animations': 13.2.6_@angular+core@13.2.6
@@ -51,11 +51,11 @@ devDependencies:
   '@angular/cli': 13.2.6
   '@angular/compiler-cli': 13.2.6_228480e36be661e275470f27af4bf747
   '@types/jasmine': 3.10.3
-  '@types/node': 12.20.47
+  '@types/node': 17.0.21
   jasmine-core: 4.0.1
   karma: 6.3.17
   karma-chrome-launcher: 3.1.1
-  karma-coverage: 2.1.1
+  karma-coverage: 2.2.0
   karma-jasmine: 4.0.1_karma@6.3.17
   karma-jasmine-html-reporter: 1.7.0_d63185f8de84f984ad7c6427ff04984c
   typescript: 4.5.5
@@ -459,7 +459,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.16.7
-      '@babel/generator': 7.16.8
+      '@babel/generator': 7.17.3
       '@babel/helper-compilation-targets': 7.16.7_@babel+core@7.16.12
       '@babel/helper-module-transforms': 7.17.6
       '@babel/helpers': 7.17.2
@@ -1807,13 +1807,13 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
     dev: true
 
   /@types/bonjour/3.5.10:
     resolution: {integrity: sha512-p7ienRMiS41Nu2/igbJxxLDWrSZ0WxM8UQgCeO9KhoVF7cOVFkrKsiDr1EsJIla8vV3oEEjGcz11jc5yimhzZw==}
     dependencies:
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
     dev: true
 
   /@types/component-emitter/1.2.11:
@@ -1824,13 +1824,13 @@ packages:
     resolution: {integrity: sha512-h8QJa8xSb1WD4fpKBDcATDNGXghFj6/3GRWG6dhmRcu0RX1Ubasur2Uvx5aeEwlf0MwblEC2bMzzMQntxnw/Cw==}
     dependencies:
       '@types/express-serve-static-core': 4.17.28
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
     dev: true
 
   /@types/connect/3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
     dev: true
 
   /@types/cookie/0.4.1:
@@ -1862,7 +1862,7 @@ packages:
   /@types/express-serve-static-core/4.17.28:
     resolution: {integrity: sha512-P1BJAEAW3E2DJUlkgq4tOL3RyMunoWXqbSCygWo5ZIWTjUgN1YnaXWW4VWl/oc8vs/XoYibEGBKP0uZyF4AHig==}
     dependencies:
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
     dev: true
@@ -1879,7 +1879,7 @@ packages:
   /@types/http-proxy/1.17.8:
     resolution: {integrity: sha512-5kPLG5BKpWYkw/LVOGWpiq3nEVqxiN32rTgI53Sk12/xHFQ2rG3ehI9IO+O3W2QoKeyB92dJkoka8SUm6BX1pA==}
     dependencies:
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
     dev: true
 
   /@types/jasmine/3.10.3:
@@ -1894,8 +1894,8 @@ packages:
     resolution: {integrity: sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==}
     dev: true
 
-  /@types/node/12.20.47:
-    resolution: {integrity: sha512-BzcaRsnFuznzOItW1WpQrDHM7plAa7GIDMZ6b5pnMbkqEtM/6WCOhvZar39oeMQP79gwvFUWjjptE7/KGcNqFg==}
+  /@types/node/17.0.21:
+    resolution: {integrity: sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==}
     dev: true
 
   /@types/parse-json/4.0.0:
@@ -1924,19 +1924,19 @@ packages:
     resolution: {integrity: sha512-nCkHGI4w7ZgAdNkrEu0bv+4xNV/XDqW+DydknebMOQwkpDGx8G+HTlj7R7ABI8i8nKxVw0wtKPi1D+lPOkh4YQ==}
     dependencies:
       '@types/mime': 1.3.2
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
     dev: true
 
   /@types/sockjs/0.3.33:
     resolution: {integrity: sha512-f0KEEe05NvUnat+boPTZ0dgaLZ4SfSouXUgv5noUiefG2ajgKjmETo9ZJyuqsl7dfl2aHlLJUiki6B4ZYldiiw==}
     dependencies:
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
     dev: true
 
   /@types/ws/8.5.3:
     resolution: {integrity: sha512-6YOoWjruKj1uLf3INHH7D3qTXwFfEsg1kf3c0uDdSBJwfa/llkwIjrAGV7j7mVgGNbzTQ3HiHKKDXl6bJPD97w==}
     dependencies:
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
     dev: true
 
   /@webassemblyjs/ast/1.11.1:
@@ -3111,7 +3111,7 @@ packages:
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.12
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.4.2
@@ -4198,23 +4198,11 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /istanbul-lib-instrument/4.0.3:
-    resolution: {integrity: sha512-BXgQl9kf4WTCPCCpmFGoJkz/+uhvm7h7PFKUYxh7qarQd3ER33vHG//qaE8eN25l07YqZPpHXU9I09l/RD5aGQ==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@babel/core': 7.17.5
-      '@istanbuljs/schema': 0.1.3
-      istanbul-lib-coverage: 3.2.0
-      semver: 6.3.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /istanbul-lib-instrument/5.1.0:
     resolution: {integrity: sha512-czwUz525rkOFDJxfKK6mYfIs9zBKILyrZQxjz3ABhjQXhbhFsSbo1HW/BFcsDnfJYJWA6thRR5/TUY2qs5W99Q==}
     engines: {node: '>=8'}
     dependencies:
-      '@babel/core': 7.16.12
+      '@babel/core': 7.17.5
       '@babel/parser': 7.17.3
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.0
@@ -4263,7 +4251,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 12.20.47
+      '@types/node': 17.0.21
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -4345,12 +4333,12 @@ packages:
       which: 1.3.1
     dev: true
 
-  /karma-coverage/2.1.1:
-    resolution: {integrity: sha512-oxeOSBVK/jdZsiX03LhHQkO4eISSQb5GbHi6Nsw3Mw7G4u6yUgacBAftnO7q+emPBLMsrNbz1pGIrj+Jb3z17A==}
+  /karma-coverage/2.2.0:
+    resolution: {integrity: sha512-gPVdoZBNDZ08UCzdMHHhEImKrw1+PAOQOIiffv1YsvxFhBjqvo/SVXNk4tqn1SYqX0BJZT6S/59zgxiBe+9OuA==}
     engines: {node: '>=10.0.0'}
     dependencies:
       istanbul-lib-coverage: 3.2.0
-      istanbul-lib-instrument: 4.0.3
+      istanbul-lib-instrument: 5.1.0
       istanbul-lib-report: 3.0.0
       istanbul-lib-source-maps: 4.0.1
       istanbul-reports: 3.1.4
@@ -6492,7 +6480,7 @@ packages:
     dependencies:
       '@istanbuljs/schema': 0.1.3
       glob: 7.2.0
-      minimatch: 3.0.4
+      minimatch: 3.1.2
     dev: true
 
   /text-table/0.2.0:
