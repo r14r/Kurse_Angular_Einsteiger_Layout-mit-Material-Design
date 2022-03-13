@@ -1,0 +1,29 @@
+.container {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-position {
+  border-left: 5px solid transparent;
+}
+
+.mat-column-name {
+  background-color: lightblue;
+}
+
+.mat-column-weight {
+  background-color: lightgreen;
+}
+
+.mat-column-symbol {
+  background-color: lightcyan;
+}
+
+.mat-row-bold {
+  & .mat-column-position {
+    border-left: 5px solid red;
+  }
+}
